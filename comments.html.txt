@@ -1,12 +1,12 @@
-<!DOCTYPE html><!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
   <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width>
 <title>comments.html</title>
   </head>
   <body>
-<h1>Сервис ремонта мобильных телефонов.</h1>
+<h1>Сервис ремонта мобильных телефонов</h1>
 <ol>
   <li>Меню:
 <ol>
@@ -28,6 +28,6 @@
         </ol>
  <li id="contacts">Связаться с нами <bt> +375290101010 г.Минск, пр. Независимости 40, время работы с <time>08.00-15.00</time>
   </li>
-</ol>
+
 </body>
 </html>
