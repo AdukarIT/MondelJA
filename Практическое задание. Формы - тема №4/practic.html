@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+   <title>practic1.html</title>
+  </head>
+  <body>
+  	<h1>Форма выбора пиццы:</h1>
+ <form action=" /echo" method="post">
+ <label>Выберите пиццу:
+ 	<select name="pizza">
+ 		<option value="p1">Сырная</option>
+ 		<option value="p2">Грибная</option>
+ 		<option value="p3">Мясная</option>
+ 		<option value="p4">Острая</option>
+ 		<option value="p5">4 сезона</option>
+ </select>
+ </label>
+ <p>Выберите основу:
+ 	<input type="radio" name="osnova">Тонкий край
+ 	<input type="radio" name="osnova">Толстый край
+ </p>
+ <input type="checkbox" name="cut">Разрезать пиццу<p>
+ <label>Телефон для связи:
+ 	<input type="text" name="telephon" placeholder="your phone number">
+  </label>
+</p>
+<p>
+ <label>Адрес доставки:
+ 	<input type="text" name="adress" placeholder="your address">
+ </label>
+</p>
+ <p>Дополнительные пожелания:<br>
+	<textarea name="other" id="other1" rows="10" cols="30"
+placeholder="Введите текст"></textarea>
+</p>
+<p>
+ <input type="submit" value="Заказать">
+ </p>
+</form>
+</body>
+</html>
