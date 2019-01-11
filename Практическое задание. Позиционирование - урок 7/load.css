@@ -1,0 +1,17 @@
+.progress {
+    border: 1px solid #66f;
+    width: 300px;
+    height: 20px;
+}
+
+.progressline {
+    background-color: #99f;
+    width: 72%;
+    height: 100%;
+}
+
+.progressline__value {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
