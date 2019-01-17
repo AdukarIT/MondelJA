@@ -35,10 +35,4 @@
 
 Поплавок. Псевдоклассы и составные селекторы  
 ========================================  
-
-1.[Практика. Кнопка с подсказкой] (https://github.com/AdukarIT/MondelJA/tree/master/%D0%A1SS.%20Float.%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0)  
-
-
-
-
-
+[Практика. Кнопка с подсказкой](https://github.com/AdukarIT/MondelJA/tree/master/%D0%A1SS.%20Float.%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0)  
