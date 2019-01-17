@@ -1,24 +1,24 @@
 .univer {
 	text-align: center;
 	font-weight: 700;
-	line-height: .4;
+	line-height: 1.1;
 	padding-top: 5px;
 }
 .ref {
 	text-align: center;
-	line-height: .3;
+	line-height: 1.1;
 	padding-top: 100px;
 }
 .person {
 	text-align: center;
-	line-height: .3;
+	line-height: 0.9;
 	padding-top: 40px;
 	text-align: left;
 	margin-left: 50%;
 }
 .ps {
 	text-align: center;
-	line-height: .3;
+	line-height: 1.1;
 	padding-top: 140px;
 }
 .tex1 {
