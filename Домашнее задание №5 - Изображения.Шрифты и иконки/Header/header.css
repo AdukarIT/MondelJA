@@ -1,0 +1,38 @@
+.block {
+  display: inline-block;
+  }
+
+.search {
+display: inline-block;
+position: relative;
+margin: 30px 10px 30px 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  float: left;
+ }
+
+.topmenu {
+  list-style-type: none;
+  padding: 40px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.submenu {
+  list-style-type: none;
+}
+
+.topmenu li ul {
+  display: none;
+}
+li:hover ul {
+display: block; 
+}
+p{
+  position: relative;
+  display: inline-block;
+}
+

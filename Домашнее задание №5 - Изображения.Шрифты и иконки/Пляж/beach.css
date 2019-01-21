@@ -1,0 +1,15 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.beach {
+	width: 100%;
+	height: 750px;
+	border: 1px solid #999;
+	 background:  10% 10% url("image/sun.png") fixed no-repeat,
+	              0%  100% url("image/sea.jpg") repeat-x, 
+                  url("image/sky.jpg") repeat;
+    background-size: 20% 50%, 100%;
+}
+

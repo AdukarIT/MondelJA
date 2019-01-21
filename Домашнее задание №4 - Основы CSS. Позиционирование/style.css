@@ -1,0 +1,78 @@
+/*главное меню*/
+h1 {
+font-family: Arial, sans-serif;
+font-size: 24px;
+text-transform: uppercase;
+width: 398px;
+text-align: center;
+}
+ul { 
+width: 400px;
+list-style: none;
+margin: 0px;
+padding: 0px;
+font-family: Arial, sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+}
+/*подменю*/
+li ul {
+position: absolute;
+display: none; /*cкрыть подменю*/
+margin-left: 150px; 
+font-size: 16px;
+}
+/*ссылки*/
+li a {
+display: block;
+padding: 5px;
+text-decoration: none;
+color: #22ad1f;
+border: 2px solid #22ad1f;
+background-color: #dff0c0;
+}
+li a:hover {
+background-color: #c1f0c0;
+}
+
+li:hover ul {
+display: block;	
+}
+/*Форма заказа*/
+
+form {
+border: 1px solid #000;
+padding: 10px;
+width: 379px;
+font-weight: 700;
+}
+
+.sub
+{
+ margin-top: 15px;
+ padding: 5px;
+}
+.contacts {
+margin-top: 30px;	
+}
+
+input {
+float: right;
+}
+.map {
+	display: none;
+	width: 370px;
+	height: auto;
+}
+
+#klient:checked+.map 
+{
+display: block;
+}
+.adress {
+display: none;       
+}
+
+#kurjer:checked+.adress {
+	display: block;
+}

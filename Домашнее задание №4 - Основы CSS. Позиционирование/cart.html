@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Форма заказа</title>
+</head>
+<body>
+  <h1>Техносити</h1>
+	  <ul>
+		<li><a href="#">Бытовая техника</a>
+        <ul>
+          <li><a href="#">Стиральные машины</a></li>
+          <li><a href="#">Пылесосы</a></li>
+          <li><a href="#">Швейные,вышивальные машины</a></li>
+          <li><a href="#">Утюги</a></li>
+          <li><a href="#">Электровеники</a></li>
+          <li><a href="#">Сушилки для обуви</a></li>
+        </ul>
+ <li><a href="#">Техника для кухни</a>
+  <ul>
+    <li><a href="#">Холодильники</a></li>
+    <li><a href="#">Кухонные плиты</a></li>
+    <li><a href="#">Морозильники</a></li>
+    <li><a href="#">Настольные плиты</a></li>
+    <li><a href="#">Ростеры, мини-печи</a></li>
+    <li><a href="#">Вытяжки</a></li>
+    <li><a href="#">Микроволновые печи</a></li>
+  </ul>
+<li><a href="#">Компьютерная техника</a>
+  <ul>
+    <li><a href="#">Ноутбуки</a></li>
+    <li><a href="#">Планшеты</a></li>
+    <li><a href="#">Компьютеры,моноблоки</a></li>
+    <li><a href="#">Игровые приставки</a></li>
+    <li><a href="#">Серверное оборудование</a></li>
+  </ul>
+ <li><a href="#">Корзина</a></li>
+</ul>
+ <h1>Отправить заказ</h1>
+ <form>
+  <div>
+  <label>Ваше ФИО:
+  <input type="text" name="klient-name" placeholder="your name">
+ </label>
+</div>
+ <br>
+ <div>
+ <label>Номер телефона:
+  <input type="text" name="klient-telefon" placeholder="your telefon">
+ </label>
+</div>
+ <br>
+ <div>
+<label>email:
+  <input type="text" name="klient-email" placeholder="your email">
+ </label>
+</div>
+ <br>
+  Выберите способ доставки:<br>
+  <div>
+  <label>Cамовывоз со склада:
+  <input type="checkbox" name="dostavka" id="klient">
+ <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aec4cdd143b77276ba48b364914c0036bc08685b9b52718a6c525b4c7fda9b83d&amp;source=constructor" width="370" height="243" frameborder="0"></iframe>
+ </label>
+</div>
+<br>
+<div>
+ <label for="kurjer">Курьером по Минску:</label>
+   <input type="checkbox" name="pominsku" id="kurjer">
+   <input type="text" name="klient-adress" class="adress" placeholder="adress">
+ <br>    
+</div>
+<p>Комментарий к заказу:
+  <textarea rows="8" cols="30">
+ Введите комментарий
+</textarea>
+</p>
+  <label>
+ <input type="checkbox" name="uslovija">Согласен с условиями доставки
+</label>
+<input type="submit" class="sub" name="sub" value="Подтвердить заказ">
+</form>
+<h1 class="contacts">Контакты</h1>
+<p>Время работы 9.00-17.00</p>
+<p>Адрес: Независимости 40</p>
+<p>тел. 37517123456</p>
+<p>skype: techno</p>
+ </body>
+ </html>
