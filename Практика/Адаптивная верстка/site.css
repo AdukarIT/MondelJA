@@ -1,0 +1,57 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	width: 200px;
+	height: 200px;
+	border: 2px solid red;
+	background-color: #E9967A;
+}
+
+@media ( min-width: 600px) {
+div { border: 2px solid green;
+	background-color: #FF7F50;
+	flex: 100%;
+	box-sizing: border-box;
+
+} 
+header { display: block;
+	
+}
+.block1 { display: inline-block;
+ }
+.block2 { display: inline-block;
+
+ }
+.block3 { 
+	width: 400px;
+	height: 400px;
+
+ }
+
+.block4 { 
+	width: 400px;
+	height: 150px;
+ }
+
+}
+
+
+@media (min-width: 800px) {
+
+nav {
+ display: block;
+}
+
+.block3 {
+display: inline-block;
+height: 550px;
+width: 200px;
+}
+.block4 {
+display: inline-block;
+height: 550px;
+width: 200px;
+}
+}

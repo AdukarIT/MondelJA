@@ -10,10 +10,8 @@ a:hover {
 }
 
 a:visited {
-	color: red;
+	color: rgb( 255, 0, 0);
 }
 
 a:visited:hover {
-	color: red;
-    opacity: 0.7;
-}
+	color: rgb( 255, 0, 0, 0.7);}
