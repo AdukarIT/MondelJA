@@ -1,23 +1,23 @@
 body {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 div {
-	width: 200px;
-	height: 200px;
-	border: 2px solid red;
-	background-color: #E9967A;
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: #E9967A;
 }
 
 @media ( min-width: 600px) {
 div { border: 2px solid green;
-	background-color: #FF7F50;
-	flex: 100%;
-	box-sizing: border-box;
+    background-color: #FF7F50;
+    flex: 100%;
+    box-sizing: border-box;
 
 } 
 header { display: block;
-	
+    
 }
 .block1 { display: inline-block;
  }
@@ -25,14 +25,14 @@ header { display: block;
 
  }
 .block3 { 
-	width: 400px;
-	height: 400px;
+    width: 400px;
+    height: 400px;
 
  }
 
 .block4 { 
-	width: 400px;
-	height: 150px;
+    width: 400px;
+    height: 150px;
  }
 
 }
