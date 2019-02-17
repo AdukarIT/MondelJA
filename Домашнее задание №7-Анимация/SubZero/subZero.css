@@ -1,0 +1,13 @@
+.subzero {
+	margin-left: 50px;
+	background: url(sheet.jpg);
+	width: 66px;
+	height: 135px;
+}
+
+@keyframes zero {
+	100% { background-position: -396px; }
+}
+ .subzero:hover {
+	animation: zero 0.3s infinite steps(6) alternate 1ms;
+}
