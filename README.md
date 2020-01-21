@@ -77,4 +77,5 @@
 ИТОГОВАЯ РАБОТА ПО ВЕРСТКЕ
 ==========================
 
-[Проект CSS - 3 Вариант ] (http://w-gear.torbara.com/)
+[Проект CSS - 3 Вариант ] 
+(https://github.com/zhasminaM/ProgectCSS-MondelJA)
