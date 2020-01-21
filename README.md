@@ -77,5 +77,4 @@
 ИТОГОВАЯ РАБОТА ПО ВЕРСТКЕ
 ==========================
 
-[Проект CSS - 3 Вариант ] 
-(https://github.com/zhasminaM/ProgectCSS-MondelJA)
+[Проект CSS - 3 Вариант](https://github.com/zhasminaM/ProgectCSS-MondelJA)
