@@ -1,0 +1,456 @@
+
+body {
+  margin: 0px;
+  padding:0px;
+  overflow-x:hidden;
+}
+
+
+.first {
+ margin: 25px auto 25px auto; /*ЛИНИЯ 1-КОНТАКТЫ*/
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 1130px;
+}
+
+.first-line {
+  display: inline-block;
+  font: normal 13px 'Ubuntu';
+  background: #ffffff;
+  color: #777777;
+  margin: 0px 25px 0px 0px;
+}
+  .log {
+  color: #005db4; /*СДЕЛАТЬ ВИДЖЕТ ВХОДА--------------!!!!!!*/
+  cursor: pointer;
+  float: right;
+  text-decoration: none;
+  font: 13px 'Ubuntu';
+}
+
+/*--- ЛИНИЯ 2 МЕНЮ---------------------------------- */
+
+.second-line {
+  background-color: #1a1a1a;   /*черная линия*/
+  margin: 25px auto 0px auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 1130px;
+  height: 80px;
+}
+
+.second-line img {   /*картинка gear*/
+  float: left;
+  }
+
+.fa-search {  /*иконка поиска*/
+color: white;
+margin-left: -30px;
+margin-top: 30px;
+font-size: 40px; /* НЕ РАБОТАЕТ--------РАЗМЕР----------!!!!*/
+
+}
+
+.search { /*окно поиска*/
+  border-radius: 2px;
+  padding: 10px;
+  height: auto;
+  width: 140px;
+  margin-top: 15px;
+  margin-right: 0px;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.search-f {  /*форма* не работают стили слова search*/
+  display: inline;
+}
+.search-f input:hover {
+  background-color: #005db4;
+  border-radius: 2px;
+  border: 0px;
+  
+}
+
+.search-f input:visited {
+  width: 180px;
+  border: 0px;
+  background-color: #005db4;
+}
+
+/* ГОРИЗОНТАЛЬНОЕ МЕНЮ----------------------------------*/
+
+.all-menu {        /*контейнер меню*/
+display: inline-block;
+margin-top: -16px;
+padding-left: 80px;
+}
+
+.all-menu li {
+display: inline-block;
+padding-top: 25px;
+padding-bottom: 30px;
+margin-left: -4px;
+
+  }
+.all-menu li:hover {
+  border-top: 5px solid #007aec;
+}
+
+.all-menu li:hover a {
+  color: #777777;
+}
+
+.all-menu a {
+text-decoration: none;
+color: #cccccc;
+font: 15px 'Ubuntu';
+font-weight: 100;
+}
+
+
+
+.main-menu {      /*основное меню*/
+padding: 0px 18px;
+background-color: rgba(250, 251, 248, 0);
+
+}
+
+.sub-menu {      /*подменю*/
+padding-top: 15px;
+padding-bottom: 20px;
+margin-top: 35px;
+opacity: 0.9;
+display: none;
+position: absolute;
+background-color: #1a1a1a;
+}
+
+.sub-menu li {
+  display: block;
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 10;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.sub-menu a {
+  color: #cccccc;
+}
+.all-menu li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li:hover {
+  background-color: #007aec;
+  
+}
+.all-menu .sub-menu li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #cccccc;
+}
+.part1 {
+  float: left;
+  border-right: 1px solid #cccccc;
+}
+.part2 {
+  display: inline-block;
+  border-right: 1px solid #cccccc;
+  padding-left: 20px;
+}
+#sub1 {
+  margin-left: -180px;
+}
+
+/* линия 3 - черная полоса */
+
+.black-line {
+  width: 9600px;
+  background-color: #1a1a1a;
+  height: 10px;
+  margin-top: -35px;
+}
+
+/*БЕЛЫЙ БЛОК - ЛИНИЯ 3*/
+
+.white-menu {
+  max-width: 100%;
+  height: 62px;
+  padding-top: 60px;
+    border-bottom: 1px solid #777777;
+    margin: 0px;
+
+}
+.white-menu a {
+  color: #005db4;
+  text-decoration: none;
+  font: 13px 'Ubuntu';
+}
+.white-menu a+a {
+  margin: 0 8px;
+  color: #1a1a1a;
+}
+.white-menu a+a+a {
+  margin: 0px;
+  color: #1a1a1a;
+}
+.white-a {
+  margin-top: 20px;
+  padding-left: 163px;
+ }
+
+ /*-- синяя линия get price */
+
+.get-price {
+  width: 100%;
+  padding: 80px 0;
+  background-color: blue;
+  background: url(fon/bg-layer-02.png) #005db4 repeat 0 0;
+  height: 40px;
+  }
+
+.get-price h3 {
+  display: inline-block;
+  width: 917px;
+  padding-left: 15px;
+  font: 24px 'Ubuntu';
+  color: #ffffff;
+}
+.submit3 {
+  color: #ffffff;
+  background-color: #007aec;
+  width: 198px;
+  height: 46px;
+  font: 18px'Ubuntu';
+  font-weight: 800;
+  border-radius: 2px;
+  border: 1px solid #007aec;
+  margin-left: 30px;
+}
+.price {
+  max-width: 1166px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.submit3:hover {
+  /*ВСТАВИТЬ СТИЛИ ПРИ НАВЕДЕНИИ-----!!!!! */
+}
+
+
+/*КАРТА*/
+
+.maps iframe {
+  height: 700px;
+  width: 100%;background-color: blue;
+}
+.buttons {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+}
+.button1,.button2,.button3 {
+  width: 70px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 17px;
+  box-sizing: border-box;
+  font: 18px Roboto,Arial,sans-serif;
+  font-weight: 500px;
+  border-radius: 2px 0 0 2px;
+  float: left;
+}
+.button1 {
+margin-top: 10px;
+margin-left: 10px;
+}
+.button2 {
+  width: 99px;
+  border-radius: 0 2px 2px 0;
+  float: left;
+  margin-top: 10px;
+}
+.button3 {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+margin: 10px;
+padding: 10px; /*----не работает паддинг, берет стили выше--!!!!*/
+
+}
+
+/*ФОРМА КОНТАКТОВ НА КАРТЕ*/
+
+
+.contact-text h3 {
+  font: 24px 'Ubuntu';
+  color: #333333;
+  padding: 0 0 0 20px;
+  margin: 0px;
+  font-weight: 700px;
+}
+.contact-text p {
+  font: 22px 'Ubuntu';
+  color: #777777;
+}
+.contact-text p+p {
+  font: 15px 'Ubuntu';
+  color: #777777;
+}
+.contact-us {
+  padding: 40px 40px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #777777;
+  width: 470px;
+  height: 130px;
+margin-left: 150px;
+margin-top: -640px;
+  position: relative;
+
+}
+.contact {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 5px 0;
+  color: #777777;
+  font: 14px 'Ubuntu';
+  width: 205px;
+  height: 17px;
+}
+#name-f {
+  margin: 5px 15px 15px 0;
+}
+.contact-f input {
+  background-color: #e5e5e5;
+  border: 0px;
+  display: inline-block;
+  }
+.contact-f {
+  padding: 20px 40px 40px;
+  width: 470px;
+  height: 198px;
+     margin-left: -40px;  /*был лишний margin-------------поставила - !!!!!!*/
+background-color: #ffffff;
+}
+#location {    
+  width: 450px;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  height: 15px;
+}
+#submit4 {
+  background: #005db4;
+  color: #ffffff;
+  padding: 11px;
+  width: 468px;
+  margin: 0px;
+}
+
+
+/*ПАНЕЛЬ FOOTER*/
+/*линия 1 - меню 1*/
+.f-line1 {
+  background-color: #2e2e2e;
+  width: 100%;
+}
+
+.footer-line1 {
+
+  margin-top: 445px; /*ВЫТЯНУЛА ФУТЕР, ПОД КАРТОЙ----- !!!!! ----*/
+  max-width: 1165px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  }
+  .footer-line1 div {
+  display: inline-block;
+  height: 159px;
+  margin: 0px;
+
+  }
+.footer-line1 a {
+  color: #ffffff;
+  font: 15px 'Ubuntu';
+  text-decoration: none;
+  padding: 5px;
+
+}
+.footer-line1 h3 {
+  color: #ffffff;
+  font: 16px 'Ubuntu';
+  margin: 0 0 0 15px;
+}
+.catalog {
+  width: 355px;
+}
+.delivery,.our-service {
+  width: 354px;
+  padding: 0 0 0 35px;
+}
+/* линия 2 - тонкая*/
+.footer-line2 {
+  width: 100%;
+  height: 10px;
+  background-color: #1a1a1a;
+}
+.footer-line3 {
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1a1a1a;
+  height: 80px;
+  margin-top: -155px;
+  box-sizing: border-box;
+}
+.footer-line3 li {
+  display: inline-block;
+  height: 55px;
+padding-top: 25px;
+padding-left: 50px;
+}
+.footer-line3 a {
+  width: 58px;
+  height: 80px;
+  padding: 0 18px;
+  text-decoration: none;
+  color: #cccccc;
+  font: 15px 'Ubuntu';
+  }
+.footer-line3 li:hover {
+  border-top: 5px solid #007aec;
+}
+.cash-box {
+  
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1130px;
+  height: 118px;
+  margin-top: 70px;
+  }
+
+.footer-line4 {
+  border: 1px solid black;
+  height: 196px;
+  background-color: #000000;
+  color: #777777;
+  
+} 
+.footer-line4 p {
+  display: inline-block;
+  float: right;
+color: #ffffff;
+font: 15px 'Ubuntu';
+font-weight: 800;
+}
+.footer-line4 a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font: 15px 'Ubuntu';
+}
