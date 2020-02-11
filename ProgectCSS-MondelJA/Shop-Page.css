@@ -276,9 +276,10 @@ padding-left: 0px;
   background-color: #007aec;
   color: #ffffff;
 }
-.check-line input{
-  width: 314px;
+.check-line+input[type='checkbox']{
+  padding-left: 150px;
   background-color: #005db4;
+  border: 2px solid blue;
 }
 
 .cost input {
@@ -392,10 +393,8 @@ margin-top: 6px;
   display: inline-block;
   padding: 10px 32.5px 10px 32.5px;
   margin-right: -4px;
- box-sizing: border-box;
- height: 343px;
+  box-sizing: border-box;
 }
-
 .prod-element img {
   width: 214.55px;
   height: 214.55px;
@@ -403,10 +402,6 @@ margin-top: 6px;
   border-color: #ffffff;
 }
 
-.cont-prod {
-  height: 343px;
-  border: 1px solid red;
-}
 .prod-element img:hover {
   opacity: 0.1;
 }
@@ -634,3 +629,71 @@ font-weight: 800;
   color: rgba(255, 255, 255, 0.7);
   font: 15px 'Ubuntu';
 }
+
+@media (min-width: 960px) {
+.first {
+   /*ЛИНИЯ 1-КОНТАКТЫ*/
+  width: 90%;
+  position: relative;
+  padding: 0 25px;
+}
+
+.second-line {
+  max-width: 90%;
+  height: 80px;
+  padding: 0 25px;
+}}
+
+@media (max-width: 959px) and (min-width: 768px){
+
+.first {
+   /*ЛИНИЯ 1-КОНТАКТЫ*/
+  width: 90%;
+  position: relative;
+  padding: 0 25px;
+}
+
+.second-line {
+  max-width: 90%;
+  height: 80px;
+  padding: 0 25px;
+}
+
+.search, .fa.fa-search  {
+  display: none;
+} }
+
+
+@media (max-width: 767px) and (min-width: 450px){ 
+
+
+.search,.fa.fa-search  {
+  display: none;
+}
+
+.first,.all-menu {
+  display: none;
+}
+
+.second-line {
+ margin-left: 0px;
+  margin-right: 50px;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+.fa-bar {
+  display: block;
+}
+
+.left-block {
+  display: none;
+}
+
+.prod-element img {
+width: 70%;
+height: auto;
+}}
+
+
+

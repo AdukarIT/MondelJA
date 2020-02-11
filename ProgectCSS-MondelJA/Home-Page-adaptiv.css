@@ -1,0 +1,1534 @@
+
+body {
+	margin: 0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+.block-numer2 {
+float: left;
+display: none;
+ }
+
+.first {
+	margin: 25px auto 25px auto;/*ЛИНИЯ 1-КОНТАКТЫ*/
+	max-width: 1130px;
+	position: relative;
+
+}
+/* СКРЫТОЕ МЕНЮ */
+
+.first-line {
+	display: inline-block;
+	font: normal 13px 'Ubuntu';
+	background: #ffffff;
+	color: #777777;
+	margin: 0px 25px 0px 0px;
+}
+  .log {
+	color: #005db4; 
+	cursor: pointer;
+	float: right;
+	text-decoration: none;
+	font: 13px 'Ubuntu';
+	margin: 0px;
+	padding-left: 0px;
+
+}
+.log li {
+	list-style-type: none;
+
+}
+
+.register {
+	float: right;
+	background: #ffffff;
+	width: 240px;
+	height: 242px;
+	padding: 20px;
+	color: #005db4;
+	opacity: 0.7;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: 28px;
+	display: none;
+}
+
+.first ul:hover .register {
+display: block;
+
+}
+
+
+.register-f {
+	width: 229px;
+	height: 30px;
+	background: #ffffff;
+	border: 1px solid rgba(70, 70, 70, 0.3);
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.checkbox {
+	padding: 10px;	
+	display: inline-block;
+}
+
+.log-in {
+	background:#005db4;
+	color: #ffffff;
+	margin-top: 10px;
+	padding: 11px;
+	border: 0px;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	font: 13px 'Ubuntu';
+}
+
+.log-in:hover {
+	background: #007aec;
+}
+
+.register a {
+	color: #005db4;
+	text-decoration: none;
+	font: 13px 'Ubuntu';
+	padding-left: 4px;
+}
+
+#reg {
+	border-right: 1px solid #005db4;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+/*--- ЛИНИЯ 2 МЕНЮ---------------------------------- */
+
+.second-line {
+	background-color: #1a1a1a;   /*черная линия*/
+	margin: 25px auto 0px auto;
+
+	width: 1130px;
+	height: 80px;
+}
+
+.second-line img {   /*картинка gear*/
+    float: left;
+}
+
+.fa-search {  /*иконка поиска*/
+	color: white;
+	margin-left: -30px;
+	margin-top: 30px;
+	font-size: 40px; /* НЕ РАБОТАЕТ--------РАЗМЕР----------!!!!*/
+
+}
+.fa-bar {
+	display: none;
+}
+.search { /*окно поиска*/
+	border-radius: 2px;
+	padding: 10px;
+	height: auto;
+	width: 140px;
+	margin-top: 15px;
+	margin-right: 0px;
+	background-color: #1a1a1a;
+	border-color: #1a1a1a;
+	color: #ffffff;
+}
+
+.search-f {  /*форма* не работают стили слова search*/
+    display: inline;
+}
+
+.search-f input:hover {
+	background-color: #005db4;
+	border-radius: 2px;
+	border: 0px;
+}
+
+.search-f input:visited {
+	width: 180px;
+	border: 0px;
+	background-color: #005db4;
+}
+
+/* ГОРИЗОНТАЛЬНОЕ МЕНЮ----------------------------------*/
+
+.all-menu {        /*контейнер меню*/
+	display: inline-block;
+	margin-top: -16px;
+	padding-left:80px;
+
+}
+
+.all-menu li {
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	margin-left: -4px;
+	}
+
+
+.all-menu li:hover {
+	border-top: 5px solid #007aec;
+}
+
+.all-menu li:hover a {
+	color: #777777;
+}
+
+.all-menu a {
+	text-decoration: none;
+	color: #cccccc;
+	font: 15px 'Ubuntu';
+	font-weight: 100;
+}
+
+.main-menu {      /*основное меню*/
+	padding: 0px 18px;
+	background-color: rgba(250, 251, 248, 0);
+}
+
+.sub-menu {      /*подменю*/
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin-top: 35px;
+	opacity: 0.9;
+	display: none;
+	position: absolute;
+	background-color: #1a1a1a;
+}
+
+.sub-menu li {
+	display: block;
+	width: 260px;
+	margin-top: 20px;
+	margin-left: 10;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+.sub-menu a {
+	color: #cccccc;
+}
+
+.all-menu li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu li:hover {
+	background-color: #007aec;
+}
+
+.all-menu .sub-menu li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #cccccc;
+}
+
+.part1 {
+	float: left;
+	border-right: 1px solid #cccccc;
+}
+
+.part2 {
+	display: inline-block;
+	border-right: 1px solid #cccccc;
+	padding-left: 20px;
+}
+
+#sub1 {
+	margin-left: -180px;
+}
+
+/* линия 3 - черная полоса */
+
+.black-line {
+	width: 9600px;
+	background-color: #1a1a1a;
+	height: 45px;
+	margin-top: -45px;
+}
+
+
+#fon_container {
+	background-size: cover;
+	background-position: center center;
+	background: url(fon/fon-1.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    height: 1080px;
+    width: 100%;
+	animation-name: fonts;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+/*форма поиска  2 */
+
+.search2 {  
+	max-width: 1130px;
+	margin-bottom: 10px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 35px;
+	padding: 30px 35px;
+}
+
+#search-2 {
+	position: relative;
+	background-color: #f0f0f0;
+	color: #777777;
+	width: 40px;
+	height: 28.5px;
+	text-align: center;
+	padding-top: 12.5px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.search2-input {
+	background-color: #e5e5e5;
+	width: 904px;
+	padding: 12px;
+	margin-right: 4px;
+	margin-left: 4px;
+	border: 0px;
+	margin-bottom: 10px;
+	font: 15px 'Ubuntu';
+	color: #777777;
+}
+
+.submit {
+	padding: 12px;
+	color: #ffffff;
+	font-weight: 700;
+	padding: 10px 27px;
+	border-radius: 2px;
+	border: 0px;
+	background-color: #005db4;
+	font-size: 14px;
+}
+
+.submit:hover {
+	color: #1a1a1a;
+	background-color: #007aec;
+}
+
+.search-s {
+	padding-left: 46px;
+	font: 15px 'Ubuntu';
+	color: #777777;
+}
+
+/*панель иконок*/
+
+.panel-icon,.panel-icon-two {
+	border-top: 1px solid #777777;
+	border-bottom: 1px solid #777777;
+	border-right: 0px;
+	border-left: 0px;
+	padding: 30px 0;
+	height: 80px;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.panel-icon-two {
+	position: absolute;
+}
+
+.panel-icon img {
+	width: 151.9px;
+	margin-left: -4px;
+	box-sizing: border-box;
+}
+.panel-icon-two img {
+	width: 151.9px;
+	margin-left: -4px;
+	box-sizing: border-box;
+}
+.logo {
+	width: 100px;
+	height: 80px;
+	padding-right: 25px;
+	padding-left: 25px;
+	opacity: 0.6;
+}
+
+.panel-shift {
+	margin-left: -40px;
+}
+
+.panel-shift li {
+	border-radius: 2px;
+	position: relative;
+	border: 1px solid #4ea9ff;
+	padding: 7px;
+	font-size: 14px;
+	line-height: 14px;
+	display: inline-block;
+}
+
+/*панель SHIFT*/
+
+.shift {
+	width: 1200px;
+	display:inline-block;
+	padding: 0 35px;
+	position: relative;
+	margin-top: 35px;
+	margin-left: 150px;
+
+}
+
+.panel-shift a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #005db4;
+	float: left;
+	font: 14px 'Ubuntu';
+}
+.panel-shift li:hover {
+	background-color: #007aec;
+}
+
+.shop-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.shop-img img {
+	height: 194px;
+	width: 194px; 
+}
+
+.shog-img-2 {
+	position: fixed;
+}
+
+.shop-img img:hover {
+	opacity: 0.5;
+}
+
+.shop-img a:hover {
+	background-color: #007aec;
+}
+
+.shop-container div {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e2e4de;
+	margin: 15px;
+}
+
+.shop-container>h3 {
+	margin: 0;
+    line-height: 14px;
+    color: #005db4;
+    font-weight: 700;
+    font: 14px 'Ubuntu';
+}
+
+.shop-container p {
+	color: #777777;
+	font: 15px 'Ubuntu';
+	margin-top: 0px;
+}
+
+.shop-img a { 
+	text-decoration: none;
+	padding: 6px;
+	color: #005db4;
+	float: left;
+	border: 1px solid #4ea9ff;
+	width: 58px;
+	font: 15px 'Ubuntu';
+}
+ 
+ /*голубой блок*/
+
+ .blue-block {
+	margin-left: -200px;
+	width: 1600px;
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	height: 96px;
+	background-color: rgb(0, 93, 180);
+	/*background: url(fon/fon-img.jpg);*/
+	background: url(fon/bg-layer-01.png), url(fon/bg-layer-01.png) #005db4 repeat 0 0;
+}
+
+.blue-block p {
+	font-size: 60px;
+	font-weight: 700;
+	color: #ffffff;
+	margin: 0px;
+	width: 256px;
+	display: flex;
+	justify-content: center;
+}
+
+.blue-block span {
+	position: relative;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blue-block div {
+	box-sizing: border-box;
+	display: inline-block;
+} 
+
+.min-block {
+	margin-left: 70px;
+	
+}
+.min-block2 {
+	margin-left: 100px; /*ИСПРАВИТЬ ----------!!!!!*/
+}
+
+/*CЕКТОР НОВОСТЕЙ*/
+
+.sector-one {
+	width: 1130px;
+}
+
+.sector-one>h3 {
+	padding: 75px 0 30px;
+	text-align: center;
+	font-family: 'Ubuntu';
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+    width: 1130px;
+}
+
+#slide {
+	width: 1130px;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+ #slide a {
+ 	color: #005db4;
+ 	height: 52px;
+	font-size: 52px;
+   width: 18px;
+ }
+
+.news {
+	display: inline-block;
+	width: 315px;
+	height: 211px;
+	margin-right: 35px;
+}
+
+.news img {
+	width: 315px;
+	height: 211px;
+	box-sizing: border-box;
+	position: relative;
+
+}
+
+#scale {
+    transition: 1s; 
+    width: 315px;
+    height: 211px;
+    overflow: hidden;
+  	display: inline-block;
+   }
+
+#scale:hover img {
+    transform: scale(1.2); 
+    transition-duration: 2s;
+     }
+
+
+
+.news>h3 {
+	font: 20px 'Ubuntu';
+	font-weight: 700px;
+	width: 300px;
+	margin: 20px -20px 20px 35px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	line-height: 22px;
+	color: #333333;
+}
+
+.news p {
+	font: 15px 'Ubuntu';
+	color: #777777;
+}
+
+.submit2 {
+	color: #ffffff;
+	background-color: #005db4;
+	font-size: 14px;
+	padding: 11px;
+	border: 0px;
+	border-radius: 2px;
+	margin: 8px 0;
+}
+
+.submit2:hover {
+	background-color: #007aec;
+}
+/*панель тюнинг*/
+
+.man {
+	width: 340px;
+	height: 380px;
+}
+
+.tuning {
+	float: left;
+	margin-top: 70px;
+	animation-name: man;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+.tuning-man {
+	float: left;
+	width: 680px;
+	padding: 80px 0 0 0;
+	margin-top: 70px;
+}
+
+.tuning-man img {
+	width: 160px;
+	height: 80px;
+	padding-left: 520px;
+}
+
+.logo-h {
+	width: 255px;
+	height: 60px;
+	background: #007aec;
+	color: #464646;
+	font-size: 40px;
+	font-style: 'Ubuntu';
+	font-weight: 700;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 0 0 45px 405px;
+}
+
+.tuning-man p {
+	text-indent: 1.5em;
+	font: 15px 'Ubuntu';
+	color: #464646;
+	height: 85px;
+	margin: 0;
+}
+
+.anim-tuning {
+	border: 1px solid green;
+}
+
+/*панель иконки + текст*/
+
+.text-icon {
+	max-width: 1130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-icon div {
+	display: inline-block;
+	width: 184px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 35px;
+	margin-top: 35px;
+}
+
+.text-icon h4 {
+	font: 18px 'Ubuntu';
+	margin: 25px 0 15px;
+	font-weight: 700;
+	color: #333333;
+}
+
+.text-icon p {
+	font: 15px 'Ubuntu';
+	color: #777777;
+}
+
+.text-icon i {
+	font-size: 40px;
+	color: #777777;
+}
+
+/*ПАНЕЛЬ КАРТИНОК 8 ШТ*/
+
+.img-container {
+	max-width: 1130px;
+	margin-right: auto;
+	margin-left: auto;@
+}
+
+.img-container img {
+	width: 267px;
+	height: 178px;
+	background-color: #ffffff;
+	opacity: 1;
+}
+
+.img-container div {
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: -4px;
+}
+
+.img-container a {
+	position: absolute;
+	text-decoration: none;
+	width: 200px;
+	height: 42px;
+	margin: 20px;
+	font: 18px 'Ubuntu';
+	color: #005db4;
+	font-weight: 400;
+	opacity: 0;
+	padding-left: 20px;
+}
+
+.img-container li:hover img { /*не работает*/
+	opacity: 0.2;
+}
+
+.img-container li:hover a {
+	opacity: 1;
+}
+
+.img-container li{
+	display: inline-block;
+}
+
+.img-container ul {
+	margin-left: -20px;
+	padding: 0px;
+}
+
+/*КНОПКА*/
+
+.show-all {
+	max-width: 1130px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 117px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.show-all>input {
+	background-color: #005db4;
+	border-radius: 2px;
+	border: 1px solid #005db4;
+	color: #ffffff;
+	padding: 11px;
+	margin: 40px 0;
+	font: 14px 'Ubuntu';
+}
+
+#show-h {
+	max-width: 1130px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font: 20px 'Ubuntu';
+	margin-bottom: 30px;
+}
+
+.team {
+	max-width: 1130px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+#r1 {
+	margin-left: 530px;
+}
+
+.SlidePerson {
+	width: 4488px;
+}
+
+.SlidePerson a {
+	position: absolute;
+}
+
+#slide-toright {
+	margin-left: 1110px;
+}
+
+#slide-toright:checked ~ .team .SlidePerson {
+	transform: translate(-1122px);
+}
+
+
+#r1:checked ~ .SlidePerson {
+  transform: translate(0px);
+}
+#r2:checked ~ .SlidePerson {
+  transform: translate(-1122px);
+}
+#r3:checked ~ .SlidePerson {
+  transform: translate(-2244px);
+}
+
+.SlidePerson div {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 374px;
+	height: 384px;
+	padding: 35px;
+	text-align: center;
+	float: left;
+
+}
+
+.SlidePerson h3 {
+	color: #333333;
+	font: 20px 'Ubuntu';
+	padding-bottom: 10px;
+	margin: 15px 0 0 0;
+	line-height: 21px; /*--------НЕ РАБОТАЕТ LINE-HEIGHT!!!!!*/
+}
+
+.SlidePerson p {
+	color: #777777;
+	font: 14px 'Ubuntu';
+	margin: 0 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #777777;
+}
+
+.SlidePerson p+p {
+	border: 0px;
+	margin-top: 15px;
+}
+
+/*-- синяя линия get price */
+
+.get-price {
+	width: 100%;
+	padding: 80px 0;
+	background-color: blue;
+	background: url(fon/bg-layer-02.png) #005db4 repeat 0 0;
+	height: 40px;
+	}
+
+.get-price h3 {
+	display: inline-block;
+	width: 917px;
+	padding-left: 15px;
+	font: 24px 'Ubuntu';
+	color: #ffffff;
+}
+
+.submit3 {
+	color: #ffffff;
+	background-color: #007aec;
+	width: 198px;
+	height: 46px;
+	font: 18px'Ubuntu';
+	font-weight: 800;
+	border-radius: 2px;
+	border: 1px solid #007aec;
+	margin-left: 30px;
+}
+
+.price {
+	max-width: 1166px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.submit3:hover {
+	/*ВСТАВИТЬ СТИЛИ ПРИ НАВЕДЕНИИ-----!!!!! */
+}
+
+/*КАРТА*/
+
+.maps iframe {
+	height: 700px;
+	width: 100%;background-color: blue;
+}
+
+.buttons {
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.button1,.button2,.button3 {
+	width: 70px;
+	height: 40px;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px 17px;
+	box-sizing: border-box;
+	font: 18px Roboto,Arial,sans-serif;
+	font-weight: 500px;
+	border-radius: 2px 0 0 2px;
+	float: left;
+}
+
+.button1 {
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.button2 {
+	width: 99px;
+	border-radius: 0 2px 2px 0;
+	float: left;
+	margin-top: 10px;
+}
+
+.button3 {
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	margin: 10px;
+	padding: 10px; /*----не работает паддинг, берет стили выше--!!!!*/
+
+}
+
+/*ФОРМА КОНТАКТОВ НА КАРТЕ*/
+
+.contact-text h3 {
+	font: 24px 'Ubuntu';
+	color: #333333;
+	padding: 0 0 0 20px;
+	margin: 0px;
+	font-weight: 700px;
+}
+
+.contact-text p {
+	font: 22px 'Ubuntu';
+	color: #777777;
+}
+
+.contact-text p+p {
+	font: 15px 'Ubuntu';
+	color: #777777;
+}
+
+.contact-us {
+	padding: 40px 40px 20px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #777777;
+	width: 470px;
+	height: 130px;
+	margin-left: 150px;
+	margin-top: -640px;
+	position: relative;
+
+}
+
+.contact {
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 5px 0;
+	color: #777777;
+	font: 14px 'Ubuntu';
+	width: 205px;
+	height: 17px;
+}
+
+#name-f {
+	margin: 5px 15px 15px 0;
+}
+
+.contact-f input {
+	background-color: #e5e5e5;
+	border: 0px;
+	display: inline-block;
+}
+
+.contact-f {
+	padding: 20px 40px 40px;
+	width: 470px;
+	height: 198px;
+    margin-left: -40px;  /*был лишний margin-------------поставила - !!!!!!*/
+	background-color: #ffffff;
+}
+
+#location {    
+	width: 450px;
+	padding: 10px;
+	margin: 5px 0 15px 0;
+	height: 15px;
+}
+
+#submit4 {
+	background: #005db4;
+	color: #ffffff;
+	padding: 11px;
+	width: 468px;
+	margin: 0px;
+}
+
+/*ПАНЕЛЬ FOOTER*/
+/*линия 1 - меню 1*/
+.f-line1 {
+	background-color: #2e2e2e;
+	width: 100%;
+}
+
+.footer-line1 {
+	margin-top: 445px; /*ВЫТЯНУЛА ФУТЕР, ПОД КАРТОЙ----- !!!!! ----*/
+	max-width: 1165px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+	.footer-line1 div {
+	display: inline-block;
+	height: 159px;
+	margin: 0px;
+}
+
+.footer-line1 a {
+	color: #ffffff;
+	font: 15px 'Ubuntu';
+	text-decoration: none;
+	padding: 5px;
+}
+
+.footer-line1 h3 {
+	color: #ffffff;
+	font: 16px 'Ubuntu';
+	margin: 0 0 0 15px;
+}
+
+.catalog {
+	width: 355px;
+}
+
+.delivery,.our-service {
+	width: 354px;
+	padding: 0 0 0 35px;
+}
+
+/* линия 2 - тонкая*/
+
+.footer-line2 {
+	width: 100%;
+	height: 10px;
+	background-color: #1a1a1a;
+}
+
+.footer-line3 {
+	max-width: 1130px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #1a1a1a;
+	height: 80px;
+	margin-top: -155px;
+	box-sizing: border-box;
+}
+
+.footer-line3 li {
+	display: inline-block;
+	height: 55px;
+	padding-top: 25px;
+	padding-left: 50px;
+}
+
+.footer-line3 a {
+	width: 58px;
+	height: 80px;
+	padding: 0 18px;
+	text-decoration: none;
+	color: #cccccc;
+	font: 15px 'Ubuntu';
+}
+
+.footer-line3 li:hover {
+	border-top: 5px solid #007aec;
+}
+
+.cash-box {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1130px;
+	height: 118px;
+	margin-top: 70px;
+}
+
+.footer-line4 {
+	border: 1px solid black;
+	height: 196px;
+	background-color: #000000;
+	color: #777777;
+}
+
+.footer-line4 p {
+	display: inline-block;
+	float: right;
+	color: #ffffff;
+	font: 15px 'Ubuntu';
+	font-weight: 800;
+}
+
+.footer-line4 a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+	font: 15px 'Ubuntu';
+}
+
+/*--------------АНИМАЦИЯ---------------------------------------------*/
+
+/* ЗАСТАВКА - АНИМАЦИЯ */
+
+@keyframes fonts {
+    30% {background: url(fon/fon-1.jpeg);}
+    60% {background: url(fon/fon-2.jpeg);}
+    100% {background: url(fon/fon-3.jpeg);}
+}
+
+
+/*-------------ПОЛОСА ИКОНОК -------1-я-------*/
+
+@keyframes icon {
+	0%{transform: translateX(0px)}
+	1%,3%{transform: translateX(-151.9px);}
+	4%,10%{transform: translateX(-151.9px);}
+	11%,13%{transform: translateX(-303.8px);}
+	14%,20%{transform: translateX(-303.8px);}
+	21%,23%{transform: translateX(-455.7px);}
+	24%,30%{transform: translateX(-455.7px);}
+	31%,33%{transform: translateX(-607.6px);}
+	34%,40%{transform: translateX(-607.6px);}
+	41%,43%{transform: translateX(-759.5px);}
+	44%,50%{transform: translateX(-759.5px);}
+	51%,53%{transform: translateX(-911.4px);}
+	53%,60%{transform: translateX(-911.4px);}
+	61%,63%{transform: translateX(-1063.3px);}
+	64%,70%{transform: translateX(-1063.3px);}
+/*	71%,73%{transform: translateX(-1215.2px);}
+	74%,80%{transform: translateX(-1215.2px);}
+	81%,83%{transform: translateX(-1367.1px);}
+	84%,90%{transform: translateX(-1367.1px);}
+	91%,93%{transform: translateX(-1519px);}
+	94%,100%{transform: translateX(-1519px);} */
+}
+
+.panel-icon {
+	animation-name: icon;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-delay: 2s;
+}
+
+/* вторая лента анимации иконок 
+.panel-icon-two {
+	animation-name: icon-two;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-delay: 2s;
+}
+
+/*-------------ПОЛОСА ИКОНОК -------2-я часть-------
+
+@keyframes icon-two {
+	0% {transform: translateX(1519px);}
+	1%,3%{transform: translateX(1367.1px);}
+	4%,10%{transform: translateX(1367.1px);}
+	11%,13%{transform: translateX(1215.2px);}
+	14%,20%{transform: translateX(1215.2px);}
+	21%,23%{transform: translateX(1063.3px);}
+	24%,30%{transform: translateX(1063.3px);}
+	31%,33%{transform: translateX(911.4px);}
+	34%,40%{transform: translateX(911.4px);}
+	41%,44%{transform: translateX(759.5px);}
+	45%,50%{transform: translateX(759.5px);}
+	51%,54%{transform: translateX(607.6px);}
+	55%,60%{transform: translateX(607.6px);}
+	61%,64%{transform: translateX(455.7px);}
+	65%,70%{transform: translateX(455.7px);}
+	71%,74%{transform: translateX(303.8px);}
+	75%,80%{transform: translateX(303.8px);}
+	81%,85%{transform: translateX(151.9px);}
+	85%,90%{transform: translateX(151.9px);}
+	91%,93%{transform: translateX(0px);}
+	94%,100%{transform: translateX(0px);} */
+}
+
+/*----АНИМАЦИЯ БЛОК TUNING------------------------------------*/
+
+/*не работает доделать*/
+.tuning {
+	animation-name: man;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes man {
+	0% {transform: translateX(-340px); opacity: 0;}
+    47% {transform: translateX(0px); opacity: 1;}
+    48%,54%{transform: translateX(1020px); opacity: 0;}
+    100% {transform: translateX(780px); opacity: 1;}
+}
+
+ .tuning-man {
+	animation-name: tuning;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes tuning {
+	0% {transform: translateX(1020px); opacity: 0;}
+    47% {transform: translateX(0px); opacity: 1;}
+    48%,54%{transform: translateX(-680px); opacity: 0;}
+  	100%{transform: translateX(-340px); opacity: 1;}
+}
+
+@media (min-width: 960px){
+
+.first {
+	 /*ЛИНИЯ 1-КОНТАКТЫ*/
+	width: 95%;
+	position: relative;
+}
+
+.second-line {
+	max-width: 95%;
+	height: 80px;
+} }
+
+
+@media (max-width: 768px) and (max-width: 959px){
+
+.first {
+	 /*ЛИНИЯ 1-КОНТАКТЫ*/
+	width: 95%;
+	position: relative;
+}
+
+.second-line {
+	max-width: 95%;
+	height: 80px;
+}
+
+.search, .fa.fa-search  {
+	display: none;
+}
+
+.search2-input {
+	width: 70%;
+}
+
+.logo {
+	width: 80px;
+	height: 70px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.all-menu 
+ {
+	margin-top: 0px;
+}
+
+
+
+.shift {
+	width: 90%;
+	padding: 0 15px;
+	margin-top: 15px;
+	margin-left: 5%;
+}
+
+
+@keyframes tuning {
+	0% {transform: translateX(1020px); opacity: 0;}
+    47%,60% {transform: translateX(0px); opacity: 1;}
+61%,100%{transform: translateX(-680px); opacity: 1;}
+}
+
+.news {
+	width: 374px;
+	height: 250px;
+}
+
+.news img {
+	width: 374px;
+	height: 250px;
+
+}
+
+#scale {
+	width: 374px;
+	height: 250px;
+}
+
+#displ-img {
+	display: none;
+}
+
+.man {
+	display: none;
+}
+
+.text-icon {
+	max-width: 90%;
+}
+
+.text-icon div {
+	width: 134px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	padding-right: 15px;
+	margin-top: 25px;
+}
+
+.text-icon h4 {
+	font: 15px 'Ubuntu';
+	margin: 15px 0 5px;
+
+}
+
+.text-icon p {
+	font: 12px 'Ubuntu';
+	height: 81px;
+
+}
+
+.text-icon i {
+	font-size: 30px;
+
+}
+
+.img-container {
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img-container img {
+width: 199px;
+	height: 133px;
+
+
+}
+
+.img-container div {
+
+    height: 200px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-left: -2px;
+}
+
+.img-container a {
+	position: absolute;
+	text-decoration: none;
+	width: 100px;
+	height: 22px;
+	margin: 10px;
+	font: 12px 'Ubuntu';
+	
+	padding-left: 10px;
+}
+
+.team {
+	max-width: 100%;
+}
+
+#r1,#r2,#r3 {
+	display: none;
+}
+
+.SlidePerson div {
+	padding: 35px;
+	width: 285px;
+	height: 385px;
+	margin-bottom: 50px;
+}
+
+.price {
+	max-width: 100%;
+}
+
+.get-price h3 {
+	
+	width: 80%;
+	padding-left: 15px;
+	font: 18px 'Ubuntu';
+}
+
+.contact-us {
+	margin-left: 80px;
+}
+
+}
+
+@media (max-width: 767px) and (min-width: 450px){ 
+
+.first {
+	 /*ЛИНИЯ 1-КОНТАКТЫ*/
+	width: 95%;
+	position: relative;
+}
+
+.second-line {
+	max-width: 95%;
+	height: 80px;
+}
+
+.search,.fa.fa-search  {
+	display: none;
+}
+
+.first,.all-menu {
+	display: none;
+}
+
+.second-line {
+	margin-top: 0px;
+	margin-right: 50px;
+	width: 90%;
+}
+
+.search2-input {
+	width: 50%;
+}
+
+.panel-icon img {
+	display: none;
+}
+
+.shift {
+	margin-left: 0px;
+}
+
+.shop-img img {
+	height: 184px;
+	width: 184px; 
+}
+ 
+.blue-block {
+	display: block;
+	width:60%;
+	text-align: center;
+	margin-left: -40px;
+padding-right: 100px;
+height: 196px;
+}
+#r1,#r2,#r3 {
+	display: none;
+}
+.SlidePerson div {
+	width: 586px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.SlidePerson img {
+	height: 150px;
+	width: 150px;
+
+}
+#person-1 {
+	display: none;
+}
+
+.get-price h3 {
+margin: 0;
+width:98%;
+text-align: center; 
+
+}
+.submit3 {
+width: 90%;
+
+}
+.price {
+	height: 100px;
+}
+.get-price {
+	padding: 80px 0 80px 0;
+	height: 100px;
+}
+
+
+
+.fa-bar {
+	display: block;
+}
+
+.fa.fa-bars {
+display: block;
+color: #777777;
+float: right;
+padding: 0 18px;
+height: 45px;
+margin-top: -45px;
+font-size: 18px;
+
+}
+
+.hid-menu {
+	margin: 0px;
+	padding: 0px;
+	width: 253px;
+	height: 900px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+.hid-menu li, .hid-menu li a {
+	list-style-type: none;
+	padding: 10px 15px;
+	color: #cccccc;
+	background-color: #333333;
+}
+
+
+.block-numer1
+ {
+height: 900px;
+overflow-y:scroll;
+overflow-x: hidden;
+ } }

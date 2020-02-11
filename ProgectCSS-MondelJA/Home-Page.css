@@ -4,13 +4,14 @@ body {
 	padding:0px;
 	overflow-x:hidden;
 }
-
+.hid-menu {
+	border: 1px solid red;
+}
 
 .first {
 	margin: 25px auto 25px auto; /*ЛИНИЯ 1-КОНТАКТЫ*/
-	padding-left: 35px;
-	padding-right: 35px;
-	width: 1130px;
+	width: 1200px;
+	position: relative;
 }
 
 .first-line {
@@ -21,27 +22,40 @@ body {
 	margin: 0px 25px 0px 0px;
 }
   .log {
-	color: #005db4; /*СДЕЛАТЬ ВИДЖЕТ ВХОДА--------------!!!!!!*/
+	color: #005db4; 
 	cursor: pointer;
 	float: right;
 	text-decoration: none;
 	font: 13px 'Ubuntu';
+	margin: 0px;
+	padding-left: 0px;
+
 }
-.log:hover.register {/*не раотает ховер ------------!!!!!!!!!*/
-	display: block;
-	position: absolute;
-	color: red;
+.log li {
+	list-style-type: none;
+
 }
+
 .register {
 	float: right;
-	display: none;
 	background: #ffffff;
 	width: 240px;
 	height: 242px;
 	padding: 20px;
 	color: #005db4;
-	opacity: 0.9;
+	opacity: 0.7;
+	position: absolute;
+	margin-left: -250px;
+	margin-top: 28px;
+	display: none;
 }
+
+.first ul:hover .register {
+display: block;
+
+}
+
+
 .register-f {
 	width: 229px;
 	height: 30px;
@@ -50,6 +64,7 @@ body {
 	border-radius: 2px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+
 }
 
 .checkbox {
@@ -232,7 +247,7 @@ body {
 	margin-top: -35px;
 }
 
-/* The element to apply the animation to */
+
 #img_container {
 	width: 100%;
 	height: 1080px;
@@ -497,46 +512,47 @@ body {
 
 #slide {
 	width: 1130px;
-	height: 52px;
 	display: flex;
 	justify-content: flex-end;
+
+}
+
+ #slide a {
+ 	color: #005db4;
+ 	height: 52px;
 	font-size: 52px;
-}
-
-.fa-chevron-right, .fa-chevron-left {
-	color: #005db4;
-	height: 52px;
-}
-
+   width: 18px;
+ }
 
 .news {
 	display: inline-block;
-	width: 350px;
+	width: 315px;
+	height: 211px;
+	margin-left: 35px;
 }
 
 .news img {
-	width: 350px;
+	width: 315px;
 	height: 211px;
-	padding: 0 0 0 35px;
 	box-sizing: border-box;
 	position: relative;
-    overflow: hidden;
+
 }
-.overflow {
-	overflow: hidden;
-	width: 350px;
-	height: 211px;
-}
+
 #scale {
     transition: 1s; 
-    width: 350px;
+    width: 315px;
     height: 211px;
     overflow: hidden;
+  	display: inline-block;
    }
 
-#scale:hover {
+#scale:hover img {
     transform: scale(1.2); 
-    }
+    transition-duration: 2s;
+     }
+
+
 
 .news>h3 {
 	width: 315px;
@@ -739,12 +755,16 @@ body {
 }
 
 .team {
-	overflow: hidden;
 	max-width: 1130px;
 	margin-right: auto;
 	margin-left: auto;
-
+	overflow: hidden;
 }
+
+#r1 {
+	margin-left: 530px;
+}
+
 .SlidePerson {
 	width: 4488px;
 }
@@ -756,14 +776,12 @@ body {
 #slide-toright {
 	margin-left: 1110px;
 }
-/*
+
 #slide-toright:checked ~ .team .SlidePerson {
 	transform: translate(-1122px);
-}*/
-.team input {
-	margin-right: -12.8px;
-	opacity: 
 }
+
+
 #r1:checked ~ .SlidePerson {
   transform: translate(0px);
 }
@@ -782,7 +800,7 @@ body {
 	padding: 35px;
 	text-align: center;
 	float: left;
-	border: 1px solid red;
+
 }
 
 .SlidePerson h3 {
@@ -1120,12 +1138,12 @@ margin-left: 10px;
 	53%,60%{transform: translateX(-911.4px);}
 	61%,63%{transform: translateX(-1063.3px);}
 	64%,70%{transform: translateX(-1063.3px);}
-	71%,73%{transform: translateX(-1215.2px);}
+/*	71%,73%{transform: translateX(-1215.2px);}
 	74%,80%{transform: translateX(-1215.2px);}
 	81%,83%{transform: translateX(-1367.1px);}
 	84%,90%{transform: translateX(-1367.1px);}
 	91%,93%{transform: translateX(-1519px);}
-	94%,100%{transform: translateX(-1519px);}
+	94%,100%{transform: translateX(-1519px);} */
 }
 
 .panel-icon {
@@ -1136,6 +1154,7 @@ margin-left: 10px;
 	animation-delay: 2s;
 }
 
+/* вторая лента анимации иконок 
 .panel-icon-two {
 	animation-name: icon-two;
 	animation-duration: 40s;
@@ -1144,7 +1163,7 @@ margin-left: 10px;
 	animation-delay: 2s;
 }
 
-/*-------------ПОЛОСА ИКОНОК -------2-я часть-------*/
+/*-------------ПОЛОСА ИКОНОК -------2-я часть-------
 
 @keyframes icon-two {
 	0% {transform: translateX(1519px);}
@@ -1167,7 +1186,7 @@ margin-left: 10px;
 	81%,85%{transform: translateX(151.9px);}
 	85%,90%{transform: translateX(151.9px);}
 	91%,93%{transform: translateX(0px);}
-	94%,100%{transform: translateX(0px);}
+	94%,100%{transform: translateX(0px);} */
 }
 
 /*----АНИМАЦИЯ БЛОК TUNING------------------------------------*/

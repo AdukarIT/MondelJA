@@ -10,7 +10,7 @@ body {
  margin: 25px auto 25px auto; /*ЛИНИЯ 1-КОНТАКТЫ*/
   padding-left: 35px;
   padding-right: 35px;
-  width: 1130px;
+  max-width: 1130px;
 }
 
 .first-line {
@@ -48,6 +48,20 @@ color: white;
 margin-left: -30px;
 margin-top: 30px;
 font-size: 40px; /* НЕ РАБОТАЕТ--------РАЗМЕР----------!!!!*/
+
+}
+.fa-bar {
+  display: none;
+}
+
+.fa.fa-bars {
+display: block;
+color: #777777;
+float: right;
+padding: 0 18px;
+height: 45px;
+margin-top: -45px;
+font-size: 18px;
 
 }
 
@@ -454,3 +468,132 @@ font-weight: 800;
   color: rgba(255, 255, 255, 0.7);
   font: 15px 'Ubuntu';
 }
+
+@media (min-width: 960px){
+
+
+.first {
+   /*ЛИНИЯ 1-КОНТАКТЫ*/
+  width: 90%;
+  position: relative;
+  padding: 0 25px;
+}
+
+.second-line {
+  max-width: 90%;
+  height: 80px;
+  padding: 0 25px;
+}
+
+
+}
+
+@media (max-width: 959px) and (min-width: 768px) {
+
+.first {
+   /*ЛИНИЯ 1-КОНТАКТЫ*/
+  width: 90%;
+  position: relative;
+  padding: 0 25px;
+}
+
+.second-line {
+  max-width: 90%;
+  height: 80px;
+  padding: 0 25px;
+}
+
+.search, .fa.fa-search  {
+  display: none;
+} }
+
+@media (max-width: 767px) and (min-width: 450px){ 
+
+
+.search,.fa.fa-search  {
+  display: none;
+}
+
+.first,.all-menu {
+  display: none;
+}
+
+.second-line {
+ margin-left: 0px;
+  margin-right: 50px;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+.fa-bar {
+  display: block;
+}
+
+.get-price h3 {
+margin: 0;
+width:98%;
+text-align: center; 
+
+}
+.submit3 {
+width: 90%;
+
+}
+.price {
+
+  height: 100px;
+}
+
+.get-price {
+  padding: 80px 0 80px 0;
+  height: 100px;
+}
+
+.contact-us
+{
+width: 80%;
+margin-right: 0px;
+margin-left: 30px;
+
+
+}
+.contact-f div
+
+{
+max-width: 550px;
+padding-right: 20px;
+box-sizing: border-box;
+
+}
+
+.left-block {
+  display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
