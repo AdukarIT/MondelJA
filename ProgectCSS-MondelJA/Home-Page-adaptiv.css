@@ -259,17 +259,21 @@ display: block;
 
 
 #fon_container {
-	background-size: cover;
-	background-position: center center;
+	/*background-size: cover;
+	background-position: center center;*/
 	background: url(fon/fon-1.jpeg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     height: 1080px;
     width: 100%;
-	animation-name: fonts;
+	/*animation-name: fonts;
 	animation-duration: 5s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;*/ 
 }
+   #fon_container { 
+   	height: 1080px;
+    width: 100%;
+     }
 
 /*форма поиска  2 */
 
@@ -1235,8 +1239,10 @@ margin-left: 10px;
 .second-line {
 	max-width: 95%;
 	height: 80px;
-} }
-
+} 
+.fonts img {
+	width: 100%;
+}
 
 @media (max-width: 768px) and (max-width: 959px){
 
@@ -1279,6 +1285,10 @@ margin-left: 10px;
 	margin-top: 15px;
 	margin-left: 5%;
 }
+.fonts img {
+	width: 100%;
+}
+
 
 
 @keyframes tuning {
@@ -1343,7 +1353,7 @@ margin-left: 10px;
 .img-container {
 	max-width: 100%;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: auto;а
 }
 
 .img-container img {
@@ -1531,4 +1541,21 @@ font-size: 18px;
 height: 900px;
 overflow-y:scroll;
 overflow-x: hidden;
- } }
+ } 
+.fonts img {
+	width: 100%;
+	height: auto;
+}
+
+
+.get-price h3 {
+margin: 0;
+width:98%;
+text-align: center; 
+
+}
+.submit3 {
+width: 90%;
+
+}
+}
