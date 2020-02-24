@@ -84,8 +84,10 @@
 JS - Циклы
 ---------
 
-[ДЗ Циклы](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2020%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B_!)
-[Практика](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2020%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B_!)
+[ДЗ Циклы]
+(https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2020%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B_!)
+[Практика]
+(https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2020%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B_!)
 
 JS - Функции
 ------------
@@ -106,5 +108,7 @@ JS - Продвинутый JavaScript
 
 JS - DOM
 -----------------
-[ДЗ DOM](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2027%20-%20DOM)
-[Практика](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2027%20-%20DOM)
+[ДЗ DOM]
+(https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2027%20-%20DOM)
+[Практика]
+(https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2027%20-%20DOM)
