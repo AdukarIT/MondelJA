@@ -84,19 +84,29 @@
 JS - Циклы
 ---------
 
-[ДЗ Циклы](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20JS%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B)
+[ДЗ Циклы](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2020%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B_!)
+
+[Практика](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2020%20-%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B_!)
 
 JS - Функции
 ------------
-[ДЗ Функции](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20JS%20-%20%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)
+[ДЗ Функции](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2021%20-%20%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)
 
 JS - Массивы
-------------
-[ДЗ Массивы](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20JS%20-%20%D0%9C%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B)
+--------------------------
+[ДЗ Массивы](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20JS%20-%20%D0%9C%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B%20(%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%BE)
 
 JS - Обьекты
 -------------
+[ДЗ Обьекты](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2024%20-%20%D0%9E%D0%B1%D1%8C%D0%B5%D0%BA%D1%82%D1%8B)
+
 JS - Встроенные возможности
 ------------
 JS - Продвинутый JavaScript
 -----------
+
+JS - DOM
+-----------------
+[ДЗ DOM](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2027%20-%20DOM)
+
+[Практика](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2027%20-%20DOM)
