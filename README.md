@@ -102,6 +102,8 @@ JS - Обьекты
 
 JS - Встроенные возможности
 ------------
+[ДЗ Встроенные возможности](https://github.com/AdukarIT/MondelJA/tree/master/%D0%94%D0%97%20JS%20-%20%D0%A3%D1%80%D0%BE%D0%BA%2025%20-%20%D0%92%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD.%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20JS---)
+
 JS - Продвинутый JavaScript
 -----------
 
