@@ -515,7 +515,7 @@ font-weight: 800;
 }
 
 .first,.all-menu {
-  display: none;
+  display: block;
 }
 
 .second-line {
