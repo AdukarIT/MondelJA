@@ -1,0 +1,205 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {                             
+	display: flex;
+	justify-content: center;   
+	margin-bottom: 70px;
+}
+
+/* МЕНЮ */
+
+.menu-container {
+
+    position: absolute;
+    margin-top: -1300px;
+}
+
+#main-menu {
+	margin-top: 200px;
+	list-style-type: none;
+    padding: 0;
+}
+
+#secondary-menu {
+    margin-top: 10px;
+    padding: 0px;
+	list-style-type: none;
+	display: none;
+
+}
+
+#main-menu li {
+	padding-left: 0px;
+}
+
+#main-menu li {
+
+	width: 355px;
+	height: 50px;
+	background-color: rgb(255, 255, 255, 0.5);
+	position: relative;
+	text-align: center;
+	margin-top: 8px;
+    border-radius: 2px;
+}
+
+#main-menu li:hover #secondary-menu {
+   display: block;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 10px;
+	color: rgb(52, 100, 53);
+	height: 50px;
+	box-sizing: border-box;
+	font-weight: 500;
+}
+
+p{
+	font-size: 11px;
+	margin-top: 0;
+
+}
+
+/* ЛИНИЯ 1 */ 
+
+.first-line {
+	background-color: rgb(0, 0, 0, 0.3);
+	width: 100%;
+	height: 1230px;
+	position: absolute;
+}
+
+.second-line img {
+	width: 100%;
+	height: 830px;
+
+}
+
+/* ЛИНИЯ 2 */
+
+.header {
+	width: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	} 
+
+#left-img {
+	width: 36%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 2px solid white;
+
+	
+}
+
+#right-img {
+	width: 32%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 2px solid white;
+	padding: 0px;
+	margin-left: -4px;
+	
+}
+
+
+#last-img {
+	width: 32%;
+	height: 100%;
+	box-sizing: border-box;
+	border: 2px solid white;
+	margin: 0px;
+	margin-left: -4px;}
+
+/* СТЕНА CUPS */
+		
+.wall, .wall-2 {
+	
+	height: 460px;
+	width: 100%;/*ds*  #346435;*/
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cups {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+    box-shadow:  0 1px 3px grey;
+    margin: 10px;
+}
+.cups-descript {
+	display: none;
+}
+.img-modifid img {
+	display: none;
+}
+
+.cups img {
+	display: block;
+}
+
+.h-modifid {
+	display: block;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 26px;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    height: 310px;
+	width: 300px;
+}
+
+.cups h1, .cups h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.cups h1 {
+	color: rgb(52, 100, 53);
+}
+
+.cups h2 {
+	color: #bd9934;
+	margin-top: -28px;
+}
+
+.cups img {
+	width: 300px;
+	height: 300px;
+}
+
+.cups button {
+	width: 170px;
+	height: 50px;
+	background-color: rgb(52, 100, 53, 1);
+	margin-bottom: 10px;
+	border: 1px solid #00401c;
+	opacity: 0.9;
+	color: white;
+	text-shadow: 5px 2px 2px #bd9934;
+	font-size: 24px;
+	border-radius: 5px;
+}
+
+/* ФУТЕР */
+
+.first-foot {
+	background-color: rgb(52, 100, 53);
+	width: 100%;
+	height: 350px;
+}
+
